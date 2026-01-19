@@ -1,0 +1,18 @@
+nohup: ignoring input
+ * Serving Flask app 'app'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.0.231:5000
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 328-545-379
+/home/james/.local/lib/python3.12/site-packages/sklearn/base.py:376: InconsistentVersionWarning: Trying to unpickle estimator LinearRegression from version 1.1.3 when using version 1.5.1. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+[2026-01-19 21:22:47,847] INFO in app: JSON payload: %s json_payload
+[2026-01-19 21:22:47,848] INFO in app: inference payload DataFrame: %s inference_payload
+[2026-01-19 21:22:47,848] INFO in app: Scaling Payload: %s payload
+127.0.0.1 - - [19/Jan/2026 21:22:47] "POST /predict HTTP/1.1" 200 -
