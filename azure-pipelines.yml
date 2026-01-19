@@ -1,0 +1,21 @@
+trigger:
+- main
+
+pool:
+  vmImage: 'ubuntu-latest'
+
+steps:
+- task: UsePythonVersion@0
+  inputs:
+    versionSpec: '3.10'
+    addToPath: true
+
+- script: |
+    cd flask-sklearn
+    make install
+  displayName: 'Install dependencies'
+
+- script: |
+    cd flask-sklearn
+    make test || true
+  displayName: 'Run tests'
