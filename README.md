@@ -46,7 +46,7 @@ Start the Flask API locally to ensure it runs correctly.
 ### 4. Make Predictions Locally
 Test the API with the provided prediction script.
 
-![Prediction output](images/prediction_local.png)  
+![Prediction output](images/prediction.png)  
 *Figure 4: Sample prediction output from the Flask API*
 
 ---
