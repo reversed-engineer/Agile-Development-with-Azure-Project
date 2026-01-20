@@ -12,7 +12,7 @@ The project shows how to automate testing, deployment, and prediction using Azur
 
 ## Project Plan
 
-- Trello Board: [Link to Trello Board](#)  
+- Trello Board: https://trello.com/invite/b/696ef4531683c90c190c87bb/ATTI63f4a2f9c8a7c8aa97a7c4060b2c275eFD15A1EC/my-trello-board  
 - Project Plan Spreadsheet: [Link to Spreadsheet](#)
 
 ---
