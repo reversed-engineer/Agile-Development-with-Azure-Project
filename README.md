@@ -13,7 +13,7 @@ The project shows how to automate testing, deployment, and prediction using Azur
 ## Project Plan
 
 - Trello Board: https://trello.com/invite/b/696ef4531683c90c190c87bb/ATTI63f4a2f9c8a7c8aa97a7c4060b2c275eFD15A1EC/my-trello-board  
-- Project Plan Spreadsheet: [Link to Spreadsheet](#)
+- Project Plan Spreadsheet: [Project Plan](Project-plan.xlsx)
 
 ---
 
@@ -67,10 +67,15 @@ View the running Flask app logs in Azure Cloud Shell.
 *Figure 6: Streamed logs from the running Flask API*
 
 ---
+## Enhancements
+
+Future improvements to this project could include adding Azure Application
+Insights for enhanced monitoring and logging, containerizing the Flask
+application using Docker, implementing autoscaling on Azure App Service,
+and using Infrastructure as Code tools such as Terraform to automate
+resource provisioning.
 
 ## Demo
 
 Watch a screencast demonstrating all key steps of the project:  
 [YouTube Demo Video](#)
-
-
